@@ -6,13 +6,14 @@
   "scripts": {
     "start": "",
     "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --open",
-    "build:prod":"webpack -p && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --open"
+    "build:prod": "webpack -p && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --open"
   },
   "author": "NehemiasEC",
   "license": "ISC",
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
